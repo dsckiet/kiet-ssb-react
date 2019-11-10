@@ -60,6 +60,18 @@ body {
   margin-left: -3rem;
 }
 
+.greyback {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.jet {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
+
 @media (max-width: 991.98px) {
   .main {
     display: none;
@@ -131,33 +143,4 @@ body {
     padding-left: 1.1rem;
     padding-right: 1.1rem;
   }
-}
-
-.intro-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.intro-image {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.greyback {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 350px;
-}
-
-.jet {
-  position: absolute;
-  top: 22px;
-  left: -20px;
-  height: 300px;
-  width: 620px;
 }
