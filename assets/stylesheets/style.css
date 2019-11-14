@@ -189,3 +189,14 @@ footer p {
 .slider-image{
   border-radius: 8px;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s all ease;
+}
+
+a:hover {
+  color: #d5d5d5;
+  text-decoration: none;
+}
