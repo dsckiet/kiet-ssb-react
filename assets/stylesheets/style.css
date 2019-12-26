@@ -174,7 +174,7 @@ body {
 @media (min-width: 992px) {
   .slider-image {
     border-radius: 8px;
-    height: 511px;
+    height: 518px;
   }
 }
 
@@ -198,19 +198,34 @@ footer p {
   color: #fff;
 }
 
-.side-links a {
+.side-links a:nth-child(1) {
   font-weight: 500;
   transition: 0.2s all cubic-bezier(0.075, 0.82, 0.165, 1);
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
-}
-
-.side-links a:nth-child(1):hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: white;
-  color: #222222;
   border: solid #db4437;
 }
-.side-links a:nth-child(2):hover {
+
+.side-links a:nth-child(2) {
+  font-weight: 500;
+  transition: 0.2s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+  border: solid #f4b400;
+}
+
+.side-links a:nth-child(3) {
+  font-weight: 500;
+  transition: 0.2s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+  border: solid #4285f4;
+}
+
+.side-links a:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #222222;
+  color: white;
+  border: 0;
+}
+/* .side-links a:nth-child(2):hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: white;
   color: #222222;
@@ -222,7 +237,7 @@ footer p {
   background-color: white;
   color: #222222;
   border: solid #4285f4;
-}
+} */
 
 .slider-image {
   border-radius: 8px;
