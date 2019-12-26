@@ -13,7 +13,7 @@ body {
 }
 
 .rounded {
-  border-radius: 8px!important;
+  border-radius: 8px !important;
   transition: 0.2s all linear;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
 }
@@ -81,6 +81,19 @@ body {
   position: absolute;
   top: 25px;
   left: 0px;
+}
+
+.cardBtn {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.btnText:hover {
+  color: #222222;
+}
+
+.glimpses {
+  background-color: #f6f6f6;
 }
 
 @media (max-width: 991.98px) {
@@ -156,6 +169,13 @@ body {
   }
 }
 
+@media (min-width: 992px) {
+  .slider-image {
+    border-radius: 8px;
+    height: 511px;
+  }
+}
+
 footer {
   background: #222222;
   padding-top: 48px;
@@ -182,11 +202,27 @@ footer p {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
 }
 
-.side-links a:hover {
+.side-links a:nth-child(1):hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: #222222;
+  border: solid #db4437;
+}
+.side-links a:nth-child(2):hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: #222222;
+  border: solid #f4b400;
 }
 
-.slider-image{
+.side-links a:nth-child(3):hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: #222222;
+  border: solid #4285f4;
+}
+
+.slider-image {
   border-radius: 8px;
 }
 
