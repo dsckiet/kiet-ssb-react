@@ -88,10 +88,16 @@ body {
 .cardBtn {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+  background-color: #4285f4;
+  height: 40px;
 }
 
-.btnText:hover {
-  color: #222222;
+.cardBtn:hover {
+  background-color: #2a76f0;
+}
+
+.btnText {
+  margin-top: 6px;
 }
 
 .glimpses {
@@ -101,6 +107,13 @@ body {
 /* .custom_btn:hover {
   background-color: #222222;
 } */
+.armed-card {
+  height: 420px;
+}
+.armed-card:hover {
+  transition: 0.2s all linear;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 @media (max-width: 991.98px) {
   .main {
@@ -256,4 +269,22 @@ a {
 a:hover {
   color: #d5d5d5;
   text-decoration: none;
+}
+
+.single_service .thumb {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.single_service:hover .thumb {
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
 }
