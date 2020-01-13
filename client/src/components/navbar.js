@@ -32,33 +32,33 @@ const Navbar = () => {
             style={{ width: "100%" }}
           >
             <li className="nav-item">
-              <a className="nav-link " href="#">
+              <a className="nav-link " href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="#">
+              <a className="nav-link " href="/about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="#">
+              <a className="nav-link " href="/trainers">
                 Trainers
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#forces">
+              <a className="nav-link" href="/armed-forces">
                 Armed Forces
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./gallery.html">
+              <a className="nav-link" href="/gallery">
                 Gallery
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./register.html">
+              <a className="nav-link" href="/register">
                 Register
               </a>
             </li>

@@ -8,6 +8,8 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import Contact from "./components/contact";
 import Gallery from "./components/gallery";
+import About from "./components/about";
+import ArmedForces from "./components/armed-forces";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Route exact path="/" component={Header} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/gallery" component={Gallery} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/armed-forces" component={ArmedForces} />
       </Switch>
       <Footer />
     </Router>
