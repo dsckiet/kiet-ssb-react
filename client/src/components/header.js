@@ -1,14 +1,4 @@
 import React from "react";
-import image3 from "../utils/assets/images/Gallery img/ssb_acad_3.jpg";
-import image5 from "../utils/assets/images/Gallery img/ssb_acad_5.JPG";
-import image8 from "../utils/assets/images/Gallery img/ssb_acad_8.JPG";
-import image7 from "../utils/assets/images/Gallery img/ssb_acad_7.JPG";
-import image6 from "../utils/assets/images/Gallery img/ssb_acad_6.JPG";
-import air from "../utils/assets/images/airforce.png";
-import navy from "../utils/assets/images/navy.png";
-import army from "../utils/assets/images/Army.png";
-import arrow from "../utils/assets/images/left-arrow.png";
-import logo from "../utils/assets/images/logo.png";
 import Carousel from "react-bootstrap/Carousel";
 
 const Header = () => {
@@ -19,28 +9,40 @@ const Header = () => {
           <div className="col-lg-9 col-md-12 col-sm-12 mb-3">
             <Carousel>
               <Carousel.Item>
-                <img className="d-block w-100" src={image3} alt="First slide" />
+                <img
+                  className="d-block w-100"
+                  src="assets/images/Gallery img/ssb_acad_3.jpg"
+                  alt="First slide"
+                />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={image5} alt="Third slide" />
+                <img
+                  className="d-block w-100"
+                  src="assets/images/Gallery img/ssb_acad_5.JPG"
+                  alt="Third slide"
+                />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={image3} alt="Third slide" />
+                <img
+                  className="d-block w-100"
+                  src="assets/images/Gallery img/ssb_acad_3.jpg"
+                  alt="Third slide"
+                />
               </Carousel.Item>
             </Carousel>
           </div>
 
           <div className="col-lg-3 col-md-12 side-links">
-            <a className="col-12 btn mb-4 p-4" href="whyTraining.html">
+            <a className="col-12 btn mb-4 p-4" href="/whyTraining">
               Why Training/Grooming is necessary for SSB?
             </a>
-            <a className="col-12 btn mb-4 p-4" href="day.html">
+            <a className="col-12 btn mb-4 p-4" href="/day">
               Day wise schedule and Test at SSB
             </a>
-            <a className="col-12 btn mb-4 p-4" href="./whyKietSSB.html">
+            <a className="col-12 btn mb-4 p-4" href="/whyKIETSSB">
               Why to join the Kiet SSB Academy
             </a>
-            <a className="col-12 btn mb-4 p-4" href="./whyKietSSB.html">
+            <a className="col-12 btn mb-4 p-4" href="/armed-forces">
               How to join Armed <br /> Forces
             </a>
           </div>
@@ -52,7 +54,11 @@ const Header = () => {
           <div className="container p-4">
             <div className="row">
               <div className="col-lg-3 col-sm-12 pt-2 text-center">
-                <img className="img-fluid" src={logo} alt="" />
+                <img
+                  className="img-fluid"
+                  src="assets/images/logo.png"
+                  alt="logo"
+                />
               </div>
               <div className="col-lg-9 col-sm-12">
                 <p>
@@ -91,12 +97,16 @@ const Header = () => {
             <div className="row">
               <div className="col-lg-4 col-sm-6">
                 <a href="https://www.indiannavy.nic.in/" target="blank">
-                  <div className="single_service">
-                    <div className="thumb">
-                      <div className="card p-5 armed-card">
-                        <img className="img-fluid" src={navy} alt="navy" />
+                  <div class="single_service">
+                    <div class="thumb">
+                      <div class="card p-5 armed-card">
+                        <img
+                          class="img-fluid"
+                          src="assets/images/navy.png"
+                          alt="navy"
+                        />
                         <p
-                          className="text-center m-5"
+                          class="text-center m-5"
                           style={{
                             fontSize: "22px",
                             fontWeight: "bold",
@@ -112,12 +122,16 @@ const Header = () => {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a href="https://www.indiannavy.nic.in/" target="blank">
-                  <div className="single_service">
-                    <div className="thumb">
-                      <div className="card p-5 armed-card">
-                        <img className="img-fluid" src={army} alt="army" />
+                  <div class="single_service">
+                    <div class="thumb">
+                      <div class="card p-5 armed-card">
+                        <img
+                          class="img-fluid"
+                          src="assets/images/Army.png"
+                          alt="army"
+                        />
                         <p
-                          className="text-center m-5"
+                          class="text-center m-5"
                           style={{
                             fontSize: "22px",
                             fontWeight: "bold",
@@ -133,12 +147,16 @@ const Header = () => {
               </div>
               <div className="col-lg-4 col-sm-6 mx-auto">
                 <a href="https://www.indiannavy.nic.in/" target="blank">
-                  <div className="single_service">
-                    <div className="thumb">
-                      <div className="card p-5 armed-card">
-                        <img className="img-fluid" src={air} alt="air force" />
+                  <div class="single_service">
+                    <div class="thumb">
+                      <div class="card p-5 armed-card">
+                        <img
+                          class="img-fluid"
+                          src="assets/images/airforce.png"
+                          alt="airforce"
+                        />
                         <p
-                          className="text-center m-5"
+                          class="text-center m-5"
                           style={{
                             fontSize: "22px",
                             fontWeight: "bold",
@@ -158,18 +176,18 @@ const Header = () => {
       </div>
       <div className="complex mt-5 ">
         <div className="row">
-          <div className="col-lg-9 col-md-8 col-sm-8"></div>
+          <div className="col-lg-9 col-sm-8"></div>
           <div
-            className="col-lg-3 col-md-4 col-sm-4 card cardBtn text-center"
+            className="col-lg-3 col-sm-4 card cardBtn text-center"
             style={{ height: "40px", backgroundColor: "#4285f4" }}
           >
-            <a href="./howToJoin.html">
+            <a href="/armed-forces">
               <h5 className="btnText mt-1" style={{ fontSize: "24px" }}>
                 How to Join Armed Forces
                 <span>
                   <img
                     className="img-fluid ml-2"
-                    src={arrow}
+                    src="assets/images/left-arrow.png"
                     alt="arrow"
                     width="24px"
                   />
@@ -187,21 +205,21 @@ const Header = () => {
               <div className="col-4 mb-4 pics">
                 <img
                   className="img-fluid card rounded"
-                  src={image8}
+                  src="assets/images/Gallery img/ssb_acad_8.JPG"
                   alt="Card image cap"
                 />
               </div>
               <div className="col-4 mb-4 pics">
                 <img
                   className="img-fluid rounded"
-                  src={image7}
+                  src="assets/images/Gallery img/ssb_acad_7.JPG"
                   alt="Card image cap"
                 />
               </div>
               <div className="col-4 mb-4 pics">
                 <img
                   className="img-fluid rounded"
-                  src={image6}
+                  src="assets/images/Gallery img/ssb_acad_6.JPG"
                   alt="Card image cap"
                 />
               </div>

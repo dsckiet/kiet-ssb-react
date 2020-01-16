@@ -1,20 +1,9 @@
 import React from "react";
-import img1 from "../utils/assets/images/Gallery img/ssb_acad_1.jpg";
-import img2 from "../utils/assets/images/Gallery img/ssb_acad_2.jpg";
-import img3 from "../utils/assets/images/Gallery img/ssb_acad_3.jpg";
-import img4 from "../utils/assets/images/Gallery img/ssb_acad_4.JPG";
-import img5 from "../utils/assets/images/Gallery img/ssb_acad_5.JPG";
-import img6 from "../utils/assets/images/Gallery img/ssb_acad_6.JPG";
-import img7 from "../utils/assets/images/Gallery img/ssb_acad_7.JPG";
-import img8 from "../utils/assets/images/Gallery img/ssb_acad_8.JPG";
-import img9 from "../utils/assets/images/Gallery img/ssb_acad_9.jpg";
-import img10 from "../utils/assets/images/Gallery img/ssb_acad_10.jpg";
-import img11 from "../utils/assets/images/Gallery img/ssb_acad_11.jpg";
 
 function Gallery() {
   return (
     <div className="fluid-container">
-      <div className="container" style={{ marginTop: "110px" }}>
+      <div className="container" style={{ marginTop: "85px" }}>
         <div className="heading mt-4">
           <p>Gallery</p>
         </div>
@@ -23,77 +12,77 @@ function Gallery() {
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img1}
+                src="/assets/images/Gallery img/ssb_acad_1.jpg"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img2}
+                src="/assets/images/Gallery img/ssb_acad_2.jpg"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img3}
+                src="/assets/images/Gallery img/ssb_acad_3.jpg"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img4}
+                src="/assets/images/Gallery img/ssb_acad_4.JPG"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img5}
+                src="/assets/images/Gallery img/ssb_acad_5.JPG"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img10}
+                src="/assets/images/Gallery img/ssb_acad_10.jpg"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img9}
+                src="/assets/images/Gallery img/ssb_acad_9.jpg"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img7}
+                src="/assets/images/Gallery img/ssb_acad_7.JPG"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img8}
+                src="/assets/images/Gallery img/ssb_acad_8.JPG"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img6}
+                src="/assets/images/Gallery img/ssb_acad_6.JPG"
                 alt="Card image cap"
               />
             </div>
             <div className="mb-3 pics">
               <img
                 className="img-fluid rounded"
-                src={img11}
+                src="/assets/images/Gallery img/ssb_acad_11.jpg"
                 alt="Card image cap"
               />
             </div>
