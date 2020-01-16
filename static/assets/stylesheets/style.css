@@ -120,18 +120,22 @@ body {
 }
 
 .custom_btn {
-  font-size: 20px;
-  margin: 0 10px 0 10px;
-  padding: 10px 20px;
-  border: 1px solid black;
-  border-radius: 0px;
-  background: white;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  margin: 0 12px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  /* background: white; */
+  transition: 0.2s all cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 .custom_btn:hover {
-  background: #707070;
-  color: white !important;
+  background: #3c83da;
+  color: white!important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 
 @media (max-width: 991.98px) {
   .main {
