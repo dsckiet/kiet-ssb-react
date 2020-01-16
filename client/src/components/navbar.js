@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../utils/assets/images/logo.png";
+import DropdownButton from "react-bootstrap/DropdownButton";
+import Dropdown from "react-bootstrap/Dropdown";
 
 const Navbar = () => {
   return (
@@ -9,7 +11,7 @@ const Navbar = () => {
         <a
           className="navbar-brand tag text-left ml-3"
           style={{ fontWeight: 700, color: "#fff" }}
-          href="#"
+          href="/"
         >
           KIET SSB Academy
         </a>
@@ -37,18 +39,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="/about">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link " href="/trainers">
-                Trainers
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="/armed-forces">
+              <a className="nav-link" href="/#forces">
                 Armed Forces
               </a>
             </li>
@@ -66,6 +57,12 @@ const Navbar = () => {
               <a className="nav-link" href="/contact">
                 Contact Us
               </a>
+            </li>
+            <li className="nav-item">
+              <DropdownButton id="dropdown-basic-button" title="About Us">
+                <Dropdown.Item href="/about">About KIET SSB</Dropdown.Item>
+                <Dropdown.Item href="/trainers">Trainers</Dropdown.Item>
+              </DropdownButton>
             </li>
           </ul>
         </div>
