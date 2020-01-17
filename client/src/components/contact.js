@@ -25,7 +25,7 @@ function Contact() {
             <br />
             +91-9045695902
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2">
             <iframe
               style={{
                 borderRadius: "8px",
@@ -35,8 +35,7 @@ function Contact() {
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13991.620820300854!2d77.4987903!3d28.7522471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf5c6d6eefa89a5df!2sKIET%20Group%20of%20Institutions!5e0!3m2!1sen!2sin!4v1573738664259!5m2!1sen!2sin"
               width="100%"
               height="240"
-              frameborder="0"
-              allowfullscreen=""
+              title="map"
             ></iframe>
           </div>
         </div>

@@ -163,7 +163,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Your Parents opinion about you
             </p>
             <p>
@@ -173,7 +173,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Your teacher/bosses opinion about you
             </p>
             <p>
@@ -183,7 +183,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Your friends opinion about you
             </p>
             <p>
@@ -193,7 +193,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Your own opinion about you
             </p>
             <p>
@@ -203,7 +203,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               The qualities you would like to develop in yourself.
             </p>
           </div>
@@ -232,7 +232,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Group Discussion (GD)
             </p>
             <p>
@@ -242,7 +242,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Group Planning Exercise (GPE)
             </p>
             <p>
@@ -252,7 +252,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Progressive Group Task
             </p>
             <p>
@@ -262,7 +262,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Inter Group Obstacle Race or Snake Race
             </p>
             <p>
@@ -272,7 +272,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Half Group Task
             </p>
             <p>
@@ -282,7 +282,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Lecturette
             </p>
             <p>
@@ -292,7 +292,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Individual Obstacles
             </p>
             <p>
@@ -302,7 +302,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Command Task
             </p>
             <p>
@@ -312,7 +312,7 @@ export const Day = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Final Group Task
             </p>
           </div>

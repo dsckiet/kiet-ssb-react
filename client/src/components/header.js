@@ -3,6 +3,9 @@ import Carousel from "react-bootstrap/Carousel";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
+  const start = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="fluid-container">
       <div className="container mt-5 pt-5">
@@ -13,37 +16,52 @@ const Header = () => {
                 <img
                   className="d-block w-100"
                   src="assets/images/Gallery img/ssb_acad_3.jpg"
-                  alt="First slide"
+                  alt=""
+                  height="465px"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
                   src="assets/images/Gallery img/ssb_acad_5.JPG"
-                  alt="Third slide"
+                  alt=""
+                  height="465px"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="assets/images/Gallery img/ssb_acad_3.jpg"
-                  alt="Third slide"
+                  src="assets/images/Gallery img/ssb_acad_7.jpg"
+                  alt=""
+                  height="465px"
                 />
               </Carousel.Item>
             </Carousel>
           </div>
 
           <div className="col-lg-3 col-md-12 side-links">
-            <NavLink className="col-12 btn mb-4 p-4" to="/whyTraining">
+            <NavLink
+              className="col-12 btn mb-4 p-4"
+              onClick={start}
+              to="/whyTraining"
+            >
               Why Training/Grooming is necessary for SSB?
             </NavLink>
-            <NavLink className="col-12 btn mb-4 p-4" to="/day">
+            <NavLink className="col-12 btn mb-4 p-4" onClick={start} to="/day">
               Day wise schedule and Test at SSB
             </NavLink>
-            <NavLink className="col-12 btn mb-4 p-4" to="/whyKIETSSB">
+            <NavLink
+              className="col-12 btn mb-4 p-4"
+              onClick={start}
+              to="/whyKIETSSB"
+            >
               Why to join the Kiet SSB Academy
             </NavLink>
-            <NavLink className="col-12 btn mb-4 p-4" to="/armed-forces">
+            <NavLink
+              className="col-12 btn mb-4 p-4"
+              onClick={start}
+              to="/armed-forces"
+            >
               How to join Armed <br /> Forces
             </NavLink>
           </div>
@@ -58,14 +76,14 @@ const Header = () => {
                 <img
                   className="img-fluid"
                   src="assets/images/logo.png"
-                  alt="logo"
+                  alt=""
                 />
               </div>
               <div className="col-lg-9 col-sm-12">
                 <p>
                   <span style={{ color: "#4285f4", fontSize: "20px" }}>
                     <strong>KIET SSB Academy</strong>
-                  </span>
+                  </span>{" "}
                   has been established with the aim of imparting pre selection
                   SSB interview to candidates aspiring to join Armed Forces as
                   officers. The training at KIET SSB Academy seeks prepare
@@ -80,9 +98,7 @@ const Header = () => {
                 </p>
                 <div>
                   <NavLink
-                    onClick={() => {
-                      window.scrollTo(0, 0);
-                    }}
+                    onClick={start}
                     to="/register"
                     className="col-12 btn btn-success mb-4"
                   >
@@ -100,17 +116,21 @@ const Header = () => {
           <div className="trainers mt-5">
             <div className="row">
               <div className="col-lg-4 col-sm-6">
-                <a href="https://www.indiannavy.nic.in/" target="_blank">
-                  <div class="single_service">
-                    <div class="thumb">
-                      <div class="card p-5 armed-card">
+                <a
+                  href="https://www.indiannavy.nic.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="single_service">
+                    <div className="thumb">
+                      <div className="card p-5 armed-card">
                         <img
-                          class="img-fluid"
+                          className="img-fluid"
                           src="assets/images/navy.png"
-                          alt="navy"
+                          alt=""
                         />
                         <p
-                          class="text-center m-5"
+                          className="text-center m-5"
                           style={{
                             fontSize: "22px",
                             fontWeight: "bold",
@@ -125,17 +145,21 @@ const Header = () => {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a href="https://www.indiannavy.nic.in/" target="_blank">
-                  <div class="single_service">
-                    <div class="thumb">
-                      <div class="card p-5 armed-card">
+                <a
+                  href="https://www.indiannavy.nic.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="single_service">
+                    <div className="thumb">
+                      <div className="card p-5 armed-card">
                         <img
-                          class="img-fluid"
+                          className="img-fluid"
                           src="assets/images/Army.png"
-                          alt="army"
+                          alt=""
                         />
                         <p
-                          class="text-center m-5"
+                          className="text-center m-5"
                           style={{
                             fontSize: "22px",
                             fontWeight: "bold",
@@ -150,17 +174,21 @@ const Header = () => {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6 mx-auto">
-                <a href="https://www.indiannavy.nic.in/" target="_blank">
-                  <div class="single_service">
-                    <div class="thumb">
-                      <div class="card p-5 armed-card">
+                <a
+                  href="https://www.indiannavy.nic.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="single_service">
+                    <div className="thumb">
+                      <div className="card p-5 armed-card">
                         <img
-                          class="img-fluid"
+                          className="img-fluid"
                           src="assets/images/airforce.png"
-                          alt="airforce"
+                          alt=""
                         />
                         <p
-                          class="text-center m-5"
+                          className="text-center m-5"
                           style={{
                             fontSize: "22px",
                             fontWeight: "bold",
@@ -197,7 +225,7 @@ const Header = () => {
                   <img
                     className="img-fluid ml-2"
                     src="assets/images/left-arrow.png"
-                    alt="arrow"
+                    alt=""
                     width="24px"
                   />
                 </span>
@@ -215,21 +243,21 @@ const Header = () => {
                 <img
                   className="img-fluid card rounded"
                   src="assets/images/Gallery img/ssb_acad_8.JPG"
-                  alt="Card image cap"
+                  alt=""
                 />
               </div>
               <div className="col-4 mb-4 pics">
                 <img
                   className="img-fluid rounded"
                   src="assets/images/Gallery img/ssb_acad_7.JPG"
-                  alt="Card image cap"
+                  alt=""
                 />
               </div>
               <div className="col-4 mb-4 pics">
                 <img
                   className="img-fluid rounded"
                   src="assets/images/Gallery img/ssb_acad_6.JPG"
-                  alt="Card image cap"
+                  alt=""
                 />
               </div>
             </div>

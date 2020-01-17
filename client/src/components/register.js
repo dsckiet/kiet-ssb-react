@@ -13,8 +13,7 @@ export default function Register() {
             width="100%"
             height="1382"
             frameborder="0"
-            marginheight="0"
-            marginwidth="0"
+            title="form"
           >
             Loading…
           </iframe>

@@ -9,7 +9,7 @@ export const Airforce = () => {
       <div className="row">
         <div className="col-lg-3">
           <div className="single_service">
-            <div className="thumb">
+            <div className="thumb text-center">
               <img
                 className="img-fluid"
                 src="./assets/images/airforce.png"
@@ -72,7 +72,7 @@ export const Airforce = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Officer Intelligence Rating Test
       </p>
       <p>
@@ -82,7 +82,7 @@ export const Airforce = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Picture perception and Discussion Test
       </p>
       <p>
@@ -107,7 +107,7 @@ export const Airforce = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Group Tests are interactive indoor and outdoor activities which are a
         combination of mental and physical work.
       </p>
@@ -118,7 +118,7 @@ export const Airforce = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Interview involves a personal conversation with an Interviewing Officer.
       </p>
       <p>
@@ -128,7 +128,7 @@ export const Airforce = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         These tests will be explained to you in detail before they are conducted
         at the Selection Board.
       </p>

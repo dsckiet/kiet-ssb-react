@@ -16,7 +16,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               We have a team of officers who are Ex SSB Presidents, GTOs, and
               psychologists from Army, Air Force and Navy guiding you towards
               success.
@@ -28,7 +28,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               All Students are put through mock tests on arrival. Their
               qualities are analysed and individual counseling is done by the
               psychologist, GTO and interviewing officer.
@@ -40,7 +40,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               The KIET SSB ACADEMY is the only institute which has latest
               Outdoor tasks and individual tasks laid out on our grounds to give
               all candidates an actual feel of the outdoor tasks.
@@ -52,7 +52,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               At The KIET SSB ACADEMY all candidates are given a number of
               practices of the screening test, including verbal, non-verbal
               reasoning and PPDT.
@@ -64,7 +64,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               At The KIET SSB ACADEMY each individual’s personality traits are
               analysed and the candidates are groomed individually.
             </p>
@@ -75,7 +75,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               All Psychological tests are Analyzed, Explained, Practiced and
               Corrected repeatedly.
             </p>
@@ -86,7 +86,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Special emphasis is laid on English Fluency and Personality
               Development of the candidates.
             </p>
@@ -104,7 +104,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Provides opportunity to practice in near real time environment.
             </p>
             <p>
@@ -114,7 +114,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Training enables the candidates to participate in a group and
               experience the group dynamics. This cannot be achieved at home.
             </p>
@@ -125,7 +125,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               The response/performance is commented upon and corrected by expert
               Psychologists, GTOs and Interviewing Officers. Their feed back is
               critical.
@@ -137,7 +137,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               The candidate learns from the behavior and performance of the peer
               group.
             </p>
@@ -148,7 +148,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Ground Tasks can only be practiced in a ground with real tasks and
               obstacles.
             </p>
@@ -159,7 +159,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               The language, formats and design factors of GTO tests/ tasks
               cannot be understood, unless experienced personally.
             </p>
@@ -170,7 +170,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Personal Interview by the Interviewing Officer can never be
               experienced on your own.
             </p>
@@ -181,7 +181,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Training enables a candidate to discover his strengths and
               weaknesses.
             </p>
@@ -192,7 +192,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Training helps a candidate to improve confidence and communication
               skills.
             </p>
@@ -210,7 +210,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Training will be for duration of 12 working days for a batch size
               of 30. The timings will be from 9.00 AM to 4.30 PM.The outdoor
               tasks will be carried out from 7.30 AM to 3.00 PM.
@@ -222,7 +222,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               The fees for students Ex – KIET will be ₹ 3000/-
             </p>
             <p>
@@ -232,7 +232,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               The fees for outside candidates will be ₹ 8000/-
             </p>
             <p>
@@ -242,7 +242,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               Students have to get themselves registered on KIET web page by
               paying registration fees of ₹1000/- by students from KIET and ₹
               2000/- from outside students. This will be adjusted in final
@@ -256,7 +256,7 @@ export const WhyKIETSSB = () => {
                   src="./assets/images/right-arrow.svg"
                   alt=""
                 />
-              </span>
+              </span>{" "}
               The courses will commence during summer/winter breaks.
             </p>
           </div>

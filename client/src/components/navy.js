@@ -9,7 +9,7 @@ export const Navy = () => {
       <div className="row">
         <div className="col-lg-3">
           <div className="single_service">
-            <div className="thumb">
+            <div className="thumb text-center">
               <img
                 className="img-fluid"
                 src="./assets/images/navy.png"
@@ -57,7 +57,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Naval Architect
       </p>
       <p>
@@ -67,7 +67,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Law
       </p>
       <p>
@@ -77,7 +77,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Logistics
       </p>
       <p>
@@ -87,7 +87,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         ATC
       </p>
       <p>
@@ -97,7 +97,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Aviation (Observer) &amp; Education Branches.
       </p>
       <p>
@@ -120,7 +120,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Gunnery &amp; Missiles
       </p>
       <p>
@@ -130,7 +130,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Navigation and Direction
       </p>
       <p>
@@ -140,7 +140,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Anti-Submarine Warfare
       </p>
       <p>
@@ -150,7 +150,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Communications
       </p>
       <p>
@@ -160,7 +160,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Pilot
       </p>
       <p>
@@ -170,7 +170,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Observer
       </p>
       <p>
@@ -180,7 +180,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Submarine
       </p>
       <p>
@@ -190,7 +190,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Hydrography
       </p>
       <p>
@@ -200,7 +200,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Diving
       </p>
       <p>The other cadres that form part of the Executive Branch are:</p>
@@ -211,7 +211,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Law
       </p>
       <p>
@@ -221,7 +221,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Air Traffic Control
       </p>
       <p>
@@ -231,7 +231,7 @@ export const Navy = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         Naval Armament Inspection and Logistics
       </p>
       <div className="heading mt-3" style={{ color: "#707070" }}>

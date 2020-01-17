@@ -17,14 +17,22 @@ const Footer = () => {
             <br />
             <span>
               KIET website:{" "}
-              <a href="https://www.kiet.edu" target="_blank">
+              <a
+                href="https://www.kiet.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 kiet.edu
               </a>
             </span>
             <br />
             <span>
               SSB website:{" "}
-              <a href="https://ssb.nic.in/" target="_blank">
+              <a
+                href="https://ssb.nic.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 ssb.nic.in
               </a>
             </span>

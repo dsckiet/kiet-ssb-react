@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Navy } from "./navy";
 import { Army } from "./army";
 import { Airforce } from "./airforce";
@@ -25,32 +26,35 @@ function ArmedForces() {
     }
   };
   return (
-    <div class="fluid-container">
-      <div class="container" style={{ marginTop: "85px" }}>
-        <div class="content-section">
-          <div class="heading mt-5">
+    <div className="fluid-container">
+      <div className="container" style={{ marginTop: "85px" }}>
+        <div className="content-section">
+          <div className="heading mt-5">
             <p>HOW TO JOIN ARMED FORCES</p>
           </div>
-          <div class="text-center">
-            <div class="mt-4">
-              <a
-                class="btn  custom_btn mb-4"
+          <div className="text-center">
+            <div className="mt-4">
+              <Link
+                className="btn  custom_btn mb-4"
+                to=""
                 onClick={e => changePage(e, "navy")}
               >
                 Indian Navy
-              </a>
-              <a
-                class="btn  custom_btn mb-4"
+              </Link>
+              <Link
+                className="btn  custom_btn mb-4"
+                to=""
                 onClick={e => changePage(e, "army")}
               >
                 Indian Army
-              </a>
-              <a
-                class="btn  custom_btn mb-4"
+              </Link>
+              <Link
+                className="btn  custom_btn mb-4"
+                to=""
                 onClick={e => changePage(e, "airforce")}
               >
                 Indian Air Force
-              </a>
+              </Link>
             </div>
           </div>
         </div>

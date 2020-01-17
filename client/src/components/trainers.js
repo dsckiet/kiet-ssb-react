@@ -20,7 +20,7 @@ export default function Trainers() {
             <div className="card ">
               <img
                 className="img-fluid mx-auto"
-                src="/assets/images/General_of_the_Indian_Army.svg"
+                src="/assets/images/General_of_the_Indian_Army.jpg"
                 alt="general"
                 style={{ height: "300px", width: "120px" }}
               />
@@ -36,7 +36,7 @@ export default function Trainers() {
             <div className="card">
               <img
                 className="img-fluid mx-auto"
-                src="/assets/images/Brigadier_of_the_Indian_Army.svg"
+                src="/assets/images/Brigadier_of_the_Indian_Army.jpg"
                 alt="brigadier"
                 style={{ height: "300px", width: "120px" }}
               />
@@ -53,7 +53,7 @@ export default function Trainers() {
             <div className="card">
               <img
                 className="img-fluid mx-auto"
-                src="/assets/images/Captain_of_the_Indian_Army.svg"
+                src="/assets/images/Captain_of_the_Indian_Army.jpg"
                 alt="captain"
                 style={{ height: "300px", width: "120px" }}
               />

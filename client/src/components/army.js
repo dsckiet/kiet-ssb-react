@@ -9,7 +9,7 @@ export const Army = () => {
       <div className="row">
         <div className="col-lg-3">
           <div className="single_service">
-            <div className="thumb">
+            <div className="thumb text-center">
               <img
                 className="img-fluid"
                 src="./assets/images/Army.png"
@@ -53,7 +53,7 @@ export const Army = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         NDA - AFTER 10+2(Through UPSC)
       </p>
       <p>
@@ -63,7 +63,7 @@ export const Army = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         DIRECT ENTRY (Through UPSC)
       </p>
       <p>
@@ -73,7 +73,7 @@ export const Army = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         ENGINEERING GRADUATES - TGC
       </p>
       <p>
@@ -83,7 +83,7 @@ export const Army = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         UNIVERSITY ENTRY SCHEMES 10+2 TES
       </p>
       <div className="heading mt-4" style={{ color: "#707070" }}>
@@ -96,7 +96,7 @@ export const Army = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         NON-TECH (Both men & women)
       </p>
       <p>
@@ -106,7 +106,7 @@ export const Army = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         TECH (Both men & women)
       </p>
       <p>
@@ -116,7 +116,7 @@ export const Army = () => {
             src="./assets/images/right-arrow.svg"
             alt=""
           />
-        </span>
+        </span>{" "}
         NCC SPECIAL ENTRY (Both men & women LAW GRADUATES(Both men & women)
       </p>
     </div>

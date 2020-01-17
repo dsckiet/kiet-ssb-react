@@ -13,12 +13,12 @@ export default function WhyTraining() {
               <img
                 className="greyback img-fluid"
                 src="./assets/images/greybackground.svg"
-                alt="imageback"
+                alt=""
               />
               <img
                 className="jet img-fluid"
                 src="./assets/images/Image 2.png"
-                alt="jet"
+                alt=""
               />
             </div>
             <div className="col-lg-6 mx-auto">
@@ -69,21 +69,21 @@ export default function WhyTraining() {
                 <img
                   className="img-fluid card rounded"
                   src="./assets/images/Gallery img/ssb_acad_8.JPG"
-                  alt="Card image cap"
+                  alt=""
                 />
               </div>
               <div className="col-4 mb-5 pics">
                 <img
                   className="img-fluid rounded"
                   src="./assets/images/Gallery img/ssb_acad_7.JPG"
-                  alt="Card image cap"
+                  alt=""
                 />
               </div>
               <div className="col-4 mb-5 pics">
                 <img
                   className="img-fluid rounded"
                   src="./assets/images/Gallery img/ssb_acad_6.JPG"
-                  alt="Card image cap"
+                  alt=""
                 />
               </div>
             </div>
