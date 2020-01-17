@@ -16,11 +16,17 @@ const Footer = () => {
             <br />
             <br />
             <span>
-              KIET website: <a href="https://www.kiet.edu">kiet.edu</a>
+              KIET website:{" "}
+              <a href="https://www.kiet.edu" target="_blank">
+                kiet.edu
+              </a>
             </span>
             <br />
             <span>
-              SSB website: <a href="https://ssb.nic.in/">ssb.nic.in</a>
+              SSB website:{" "}
+              <a href="https://ssb.nic.in/" target="_blank">
+                ssb.nic.in
+              </a>
             </span>
           </div>
           <div className="col-lg-4 col-sm-12 mt-3">
@@ -60,7 +66,7 @@ const Footer = () => {
         <p>
           &copy; copyright KIET Group of Institutions. All Rights Reserved. |
           Website Designed by
-          <a href="http://www.dsckiet.tech?utm_source=ssbkiet">DSC KIET</a>
+          <a href="http://www.dsckiet.tech?utm_source=ssbkiet"> DSC KIET</a>
         </p>
       </div>
     </footer>

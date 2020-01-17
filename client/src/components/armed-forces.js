@@ -24,10 +24,9 @@ function ArmedForces() {
       setIsAirForce(true);
     }
   };
-  console.log("red");
   return (
     <div class="fluid-container">
-      <div class="container" style={{ marginTop: "110px" }}>
+      <div class="container" style={{ marginTop: "85px" }}>
         <div class="content-section">
           <div class="heading mt-5">
             <p>HOW TO JOIN ARMED FORCES</p>
@@ -35,22 +34,19 @@ function ArmedForces() {
           <div class="text-center">
             <div class="mt-4">
               <a
-                class="btn btn-light custom_btn mb-4"
-                style={{ color: "#444444" }}
+                class="btn  custom_btn mb-4"
                 onClick={e => changePage(e, "navy")}
               >
                 Indian Navy
               </a>
               <a
-                class="btn btn-light custom_btn mb-4"
-                style={{ color: "#444444" }}
+                class="btn  custom_btn mb-4"
                 onClick={e => changePage(e, "army")}
               >
                 Indian Army
               </a>
               <a
-                class="btn btn-light custom_btn mb-4"
-                style={{ color: "#444444" }}
+                class="btn  custom_btn mb-4"
                 onClick={e => changePage(e, "airforce")}
               >
                 Indian Air Force

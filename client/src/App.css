@@ -126,14 +126,15 @@ body {
   font-weight: 700;
   margin: 0 12px;
   padding: 8px 16px;
-  border-radius: 4px;
-  /* background: white; */
+  background: #3c83da;
+  color: white !important;
   transition: 0.2s all cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 .custom_btn:hover {
-  background: #3c83da;
+  background: #707070;
   color: white !important;
+  border: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 

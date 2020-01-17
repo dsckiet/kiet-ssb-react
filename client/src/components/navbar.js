@@ -1,20 +1,22 @@
 import React from "react";
-import logo from "../utils/assets/images/logo.png";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import Dropdown from "react-bootstrap/Dropdown";
+import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <nav className="mb-5 navbar fixed-top navbar-expand-lg navbar-light bg-dark">
       <div className="container">
-        <img src={logo} alt="logo" width="48px" />
-        <a
+        <img src="/assets/images/logo.png" alt="logo" width="48px" />
+        <NavLink
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
           className="navbar-brand tag text-left ml-3"
           style={{ fontWeight: 700, color: "#fff" }}
-          href="/"
+          to="/"
         >
           KIET SSB Academy
-        </a>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -34,35 +36,90 @@ const Navbar = () => {
             style={{ width: "100%" }}
           >
             <li className="nav-item">
-              <a className="nav-link " href="/">
+              <NavLink
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                className="nav-link "
+                to="/"
+              >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#forces">
+              <Link className="nav-link" smooth to="/#forces">
                 Armed Forces
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/gallery">
+              <NavLink
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                className="nav-link"
+                to="/gallery"
+              >
                 Gallery
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/register">
+              <NavLink
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                className="nav-link"
+                to="/register"
+              >
                 Register
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">
+              <NavLink
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                className="nav-link"
+                to="/contact"
+              >
                 Contact Us
-              </a>
+              </NavLink>
             </li>
-            <li className="nav-item">
-              <DropdownButton id="dropdown-basic-button" title="About Us">
-                <Dropdown.Item href="/about">About KIET SSB</Dropdown.Item>
-                <Dropdown.Item href="/trainers">Trainers</Dropdown.Item>
-              </DropdownButton>
+            <li className="nav-item dropdown">
+              <NavLink
+                className="nav-link dropdown-toggle"
+                to="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                About Us
+              </NavLink>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <NavLink
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                  className="dropdown-item"
+                  to="/about"
+                >
+                  About SSB Academy
+                </NavLink>
+                <hr style={{ padding: "0", margin: "8px auto" }} />
+                <NavLink
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                  className="dropdown-item"
+                  to="/trainers"
+                >
+                  Trainers
+                </NavLink>
+              </div>
             </li>
           </ul>
         </div>
@@ -71,4 +128,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;

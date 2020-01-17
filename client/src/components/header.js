@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -33,18 +34,18 @@ const Header = () => {
           </div>
 
           <div className="col-lg-3 col-md-12 side-links">
-            <a className="col-12 btn mb-4 p-4" href="/whyTraining">
+            <NavLink className="col-12 btn mb-4 p-4" to="/whyTraining">
               Why Training/Grooming is necessary for SSB?
-            </a>
-            <a className="col-12 btn mb-4 p-4" href="/day">
+            </NavLink>
+            <NavLink className="col-12 btn mb-4 p-4" to="/day">
               Day wise schedule and Test at SSB
-            </a>
-            <a className="col-12 btn mb-4 p-4" href="/whyKIETSSB">
+            </NavLink>
+            <NavLink className="col-12 btn mb-4 p-4" to="/whyKIETSSB">
               Why to join the Kiet SSB Academy
-            </a>
-            <a className="col-12 btn mb-4 p-4" href="/armed-forces">
+            </NavLink>
+            <NavLink className="col-12 btn mb-4 p-4" to="/armed-forces">
               How to join Armed <br /> Forces
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -78,25 +79,28 @@ const Header = () => {
                   group testing facilities.
                 </p>
                 <div>
-                  <a
-                    href="register.html"
+                  <NavLink
+                    onClick={() => {
+                      window.scrollTo(0, 0);
+                    }}
+                    to="/register"
                     className="col-12 btn btn-success mb-4"
                   >
                     Register
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="forces mt-5" id="forces">
+      <div className="container" id="forces">
+        <div className="forces mt-5">
           <p className="heading">Armed Forces</p>
           <div className="trainers mt-5">
             <div className="row">
               <div className="col-lg-4 col-sm-6">
-                <a href="https://www.indiannavy.nic.in/" target="blank">
+                <a href="https://www.indiannavy.nic.in/" target="_blank">
                   <div class="single_service">
                     <div class="thumb">
                       <div class="card p-5 armed-card">
@@ -121,7 +125,7 @@ const Header = () => {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a href="https://www.indiannavy.nic.in/" target="blank">
+                <a href="https://www.indiannavy.nic.in/" target="_blank">
                   <div class="single_service">
                     <div class="thumb">
                       <div class="card p-5 armed-card">
@@ -146,7 +150,7 @@ const Header = () => {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6 mx-auto">
-                <a href="https://www.indiannavy.nic.in/" target="blank">
+                <a href="https://www.indiannavy.nic.in/" target="_blank">
                   <div class="single_service">
                     <div class="thumb">
                       <div class="card p-5 armed-card">
@@ -181,7 +185,12 @@ const Header = () => {
             className="col-lg-3 col-sm-4 card cardBtn text-center"
             style={{ height: "40px", backgroundColor: "#4285f4" }}
           >
-            <a href="/armed-forces">
+            <NavLink
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+              to="/armed-forces"
+            >
               <h5 className="btnText mt-1" style={{ fontSize: "24px" }}>
                 How to Join Armed Forces
                 <span>
@@ -193,7 +202,7 @@ const Header = () => {
                   />
                 </span>
               </h5>
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
