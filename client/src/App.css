@@ -3,7 +3,7 @@
   src: url("/assets/fonts/Product\ Sans\ Regular.ttf");
 } */
 /* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 body {
   overflow-x: hidden !important;
   /* font-family: "Product Sans Regular", sans-serif; */
@@ -14,7 +14,7 @@ body {
 
 .nav-link {
   /* font-weight: 700; */
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .rounded {
@@ -99,12 +99,13 @@ body {
   color: #fff;
 }
 
-.glimpses, .about {
+.glimpses,
+.about {
   background-color: #f6f6f6;
 }
 
 .bg-dark {
-  background-color: #3c83da!important;
+  background-color: #3c83da !important;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   color: #fff;
 }
@@ -125,15 +126,21 @@ body {
   font-weight: 700;
   margin: 0 12px;
   padding: 8px 16px;
-  border-radius: 4px;
-  /* background: white; */
+  background: #3c83da;
+  color: white !important;
   transition: 0.2s all cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 .custom_btn:hover {
-  background: #3c83da;
-  color: white!important;
+  background: #707070;
+  color: white !important;
+  border: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#dropdown-basic-button {
+  background-color: #3c83da;
+  border: 0;
 }
 
 @media (max-width: 991.98px) {
@@ -262,7 +269,7 @@ footer p {
 }
 
 .side-links a:nth-child(4) {
-  background-color: #F4B400;
+  background-color: #f4b400;
   color: #fff;
   transition: 0.2s all cubic-bezier(0.075, 0.82, 0.165, 1);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0);

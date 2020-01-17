@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div className="fluid-container">
-      <div className="container" style={{ marginTop: "110px" }}>
+      <div className="container" style={{ marginTop: "85px" }}>
         <div className="heading mt-4">
           <p>Contact Us</p>
         </div>

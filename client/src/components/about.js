@@ -1,9 +1,8 @@
 import React from "react";
-import aboutLogo from "../utils/assets/images/Gallery img/ssb_acad_5.JPG";
 
 function About() {
   return (
-    <div className="container" style={{marginTop: "110px"}}>
+    <div className="container" style={{ marginTop: "85px" }}>
       <div className="heading mt-4">
         <p>About us</p>
       </div>
@@ -11,7 +10,7 @@ function About() {
         <div className="img-card">
           <img
             className="card img-card img-fluid rounded"
-            src={aboutLogo}
+            src="/assets/images/Gallery img/ssb_acad_5.JPG"
             alt="img"
             width="100%"
           />
