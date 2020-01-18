@@ -217,9 +217,8 @@ body {
 }
 
 @media (min-width: 992px) {
-  .slider-image {
-    border-radius: 8px;
-    height: 518px;
+  .hgt {
+    height: 465px;
   }
 }
 

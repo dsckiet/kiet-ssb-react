@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Navy } from "./navy";
 import { Army } from "./army";
 import { Airforce } from "./airforce";
-
+import NavBar from "./navbar";
 function ArmedForces() {
   const [isNavy, setIsNavy] = useState(true);
   const [isArmy, setIsArmy] = useState(false);
@@ -26,43 +26,46 @@ function ArmedForces() {
     }
   };
   return (
-    <div className="fluid-container">
-      <div className="container" style={{ marginTop: "85px" }}>
-        <div className="content-section">
-          <div className="heading mt-5">
-            <p>HOW TO JOIN ARMED FORCES</p>
-          </div>
-          <div className="text-center">
-            <div className="mt-4">
-              <Link
-                className="btn  custom_btn mb-4"
-                to=""
-                onClick={e => changePage(e, "navy")}
-              >
-                Indian Navy
-              </Link>
-              <Link
-                className="btn  custom_btn mb-4"
-                to=""
-                onClick={e => changePage(e, "army")}
-              >
-                Indian Army
-              </Link>
-              <Link
-                className="btn  custom_btn mb-4"
-                to=""
-                onClick={e => changePage(e, "airforce")}
-              >
-                Indian Air Force
-              </Link>
+    <>
+      <NavBar />
+      <div className="fluid-container">
+        <div className="container">
+          <div className="content-section">
+            <div className="heading">
+              <p>HOW TO JOIN ARMED FORCES</p>
+            </div>
+            <div className="text-center">
+              <div className="mt-4">
+                <Link
+                  className="btn  custom_btn mb-4"
+                  to=""
+                  onClick={e => changePage(e, "navy")}
+                >
+                  Indian Navy
+                </Link>
+                <Link
+                  className="btn  custom_btn mb-4"
+                  to=""
+                  onClick={e => changePage(e, "army")}
+                >
+                  Indian Army
+                </Link>
+                <Link
+                  className="btn  custom_btn mb-4"
+                  to=""
+                  onClick={e => changePage(e, "airforce")}
+                >
+                  Indian Air Force
+                </Link>
+              </div>
             </div>
           </div>
         </div>
+        {isNavy ? <Navy /> : null}
+        {isArmy ? <Army /> : null}
+        {isAirForce ? <Airforce /> : null}
       </div>
-      {isNavy ? <Navy /> : null}
-      {isArmy ? <Army /> : null}
-      {isAirForce ? <Airforce /> : null}
-    </div>
+    </>
   );
 }
 
