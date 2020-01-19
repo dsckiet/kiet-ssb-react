@@ -11,7 +11,7 @@ export default function Register() {
           </div>
           <div className="mt-4">
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLScFxbJFXvzqAnqXhL0IUDaPcKSgIbxG3-Ar0zQB4bRl--6HyA/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSepziUUdU76zSrXsNvjc2fBr3bJxCVHvR4jwXXRGDUKWVHQ5A/viewform"
               width="100%"
               height="1382"
               frameborder="0"
