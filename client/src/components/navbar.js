@@ -4,7 +4,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const NavBar = () => {
   return (
-    <nav className="mb-5 navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+    <nav className="mb-5 navbar sticky-top navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <img src="/assets/images/logo.png" alt="logo" width="48px" />
         <NavLink
@@ -46,6 +46,43 @@ const NavBar = () => {
                 Home
               </NavLink>
             </li>
+            <li className="nav-item dropdown">
+              <NavLink
+                className="nav-link dropdown-toggle"
+                to="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                About Us
+              </NavLink>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <NavLink
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                  className="dropdown-item"
+                  to="/about"
+                >
+                  About SSB Academy
+                </NavLink>
+                <hr style={{ padding: "0", margin: "8px auto" }} />
+                <NavLink
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                  className="dropdown-item"
+                  to="/trainers"
+                >
+                  Trainers
+                </NavLink>
+              </div>
+            </li>
             <li className="nav-item">
               <Link className="nav-link" smooth to="/#forces">
                 Armed Forces
@@ -83,43 +120,6 @@ const NavBar = () => {
               >
                 Contact Us
               </NavLink>
-            </li>
-            <li className="nav-item dropdown">
-              <NavLink
-                className="nav-link dropdown-toggle"
-                to="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                About Us
-              </NavLink>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <NavLink
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  className="dropdown-item"
-                  to="/about"
-                >
-                  About SSB Academy
-                </NavLink>
-                <hr style={{ padding: "0", margin: "8px auto" }} />
-                <NavLink
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  className="dropdown-item"
-                  to="/trainers"
-                >
-                  Trainers
-                </NavLink>
-              </div>
             </li>
           </ul>
         </div>

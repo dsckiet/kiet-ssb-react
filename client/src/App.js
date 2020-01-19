@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Contact from "./components/contact";
@@ -22,7 +21,6 @@ import { Airforce } from "./components/airforce";
 const App = () => {
   return (
     <Router className="App">
-      <NavBar />
       <Switch>
         <Route exact path="/" component={Header} />
         <Route exact path="/contact" component={Contact} />
