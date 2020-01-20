@@ -149,7 +149,7 @@ const Header = () => {
                 </div>
                 <div className="col-lg-4 col-sm-6">
                   <a
-                    href="https://www.indiannavy.nic.in/"
+                    href="https://www.indianarmy.nic.in/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -178,7 +178,7 @@ const Header = () => {
                 </div>
                 <div className="col-lg-4 col-sm-6 mx-auto">
                   <a
-                    href="https://www.indiannavy.nic.in/"
+                    href="https://indianairforce.nic.in/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
