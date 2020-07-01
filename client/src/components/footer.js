@@ -59,7 +59,8 @@ const Footer = () => {
               <br />
               <span style={{ fontWeight: 700 }}>Mobile Number:</span>
               <br />
-              +91-9634815154, +91-9045695902
+              +91-9634815154 (Col. Mahesh Bhardwaj) <br />
+              +91-9045695902 (Rahul Tyagi)
               <br />
               <br />
               <span style={{ fontWeight: 700 }}>Email ID:</span>
