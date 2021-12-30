@@ -25,8 +25,6 @@ function Contact() {
                 Phone Number:
               </span>
               <br />
-              +91-9634815154
-              <br />
               +91-9045695902
             </div>
             <div className="col-md-6 mt-2">
