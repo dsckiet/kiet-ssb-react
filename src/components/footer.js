@@ -74,7 +74,7 @@ const Footer = () => {
         <p>
           &copy; copyright KIET Group of Institutions. All Rights Reserved. |
           Website Designed by
-          <a href="http://www.dsckiet.tech?utm_source=ssbkiet"> DSC KIET</a>
+          <a href="http://www.dsckiet.com?utm_source=ssbkiet"> DSC KIET</a>
         </p>
       </div>
     </footer>
