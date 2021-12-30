@@ -25,7 +25,7 @@ function Contact() {
                 Phone Number:
               </span>
               <br />
-              +91-9045695902
+              +91-9045695902 (Rahul Tyagi)
             </div>
             <div className="col-md-6 mt-2">
               <iframe
