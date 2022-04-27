@@ -26,8 +26,7 @@ function Contact() {
 							</span>
 							<br />
 							+91-8266924441 (Dr. Sandeep Chhabra)
-							<br />
-							+91-9045695902 (Rahul Tyagi)
+							
 						</div>
 						<div className="col-md-6 mt-2">
 							<iframe
