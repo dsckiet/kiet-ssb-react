@@ -61,8 +61,6 @@ const Footer = () => {
 							<br />
 							+91-8266924441 (Dr. Sandeep Chhabra)
 							<br />
-							+91-9045695902 (Rahul Tyagi)
-							<br />
 							<br />
 							<span style={{ fontWeight: 700 }}>Email ID:</span>
 							<br />
